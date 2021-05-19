@@ -51,7 +51,7 @@
   
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
   z-index: 99;
   padding: 17px 10px;
   
-}
+} */
 .right-side {
   display: flex;
   flex-direction: column;
