@@ -60,7 +60,7 @@ return (
 		<NavBtnLink to='/signin'>Log out</NavBtnLink>
 		</NavBtn>
 	</Nav>
-    
+    <br />
     <Body />
     <Footer />
 	</>

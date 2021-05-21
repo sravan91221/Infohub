@@ -1,6 +1,8 @@
 import React from 'react';
 import download  from '../Images/download.jpg'
 import dom from '../Images/Dom.jpg'
+import ml from '../Images/ml.jpg'
+
 export default function Slideshow() {
     // var myCarousel = document.querySelector('#myCarousel')
     // var carousel = new bootstrap.Carousel(myCarousel)
@@ -14,13 +16,13 @@ export default function Slideshow() {
   </div>
   <div class="carousel-inner">  
     <div class="carousel-item active">
+      <img src={ml} class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
       <img src={download} class="d-block w-100" alt="..." />
     </div>
     <div class="carousel-item">
-      <img src={dom} class="d-block w-100" alt="..." />
-    </div>
-    <div class="carousel-item">
-     <img src={download} class="d-block w-100" alt="..." />
+     <img src={dom} class="d-block w-100" alt="..." />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
