@@ -1,6 +1,4 @@
 import React from 'react';
-  
-
 import '../components/Homepage/style.css';
 
 import {
@@ -11,10 +9,11 @@ NavMenu,
 NavBtn,
 NavBtnLink,
 } from '../components/Homepage/homepage.jsx';
-import Card from './Card';
-import Filter from './Filter';
+import Picture from './Picture';
+import Upload from './sample';
 
-const Material = () => {
+
+const Profile = () => {
 return (
 	<>
 	<Nav>
@@ -59,29 +58,29 @@ return (
 		<NavBtnLink to='/signin'>Log out</NavBtnLink>
 		</NavBtn>
 	</Nav>
-    <br />
-    
-      <Filter />
-      <div className="container">
-      <div className="row" >   
-      <div className="col-md-3"></div>   
-     <Card /><Card /><Card />
-    </div>
+    <br />  
+    <div className="container">
+        <div className="row">
+        <div className="pic col-md-3" >
+         <Upload />
+        </div>
+        <div className="box1 offset-1 col-md-6" style={{borderRadius:"10px",borderStyle:"groove"}}>
+            
+        </div>
 
-    <div className="row my-5" >  
-    <div className="col-md-3"></div>     
-     <Card /><Card /><Card />
-    </div>
-      </div>
-    
-    
-    
+        </div>
+        <br />
+        <div className="recent col-md-10 " style={{borderStyle:"groove",borderRadius:"10px", height:"120px"}}>
+        
+        </div>        <br />
+        <div className="rebtn">
+        <button type="button" class="btn  btn-outline-primary">Recent activity</button>
+        </div>
+     </div>
 	</>
-    
-    
     
 );
 };
 
 
-export default Material;
+export default Profile;

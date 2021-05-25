@@ -2,6 +2,7 @@ import React from 'react'
 import loginImg from "../login.svg";
 import Slideshow from './Slideshow';
 import Sample  from '../Images/sample.jpg';
+import {NavLink} from "./Homepage/homepage"
  
 import {
     NavBtn,
@@ -26,9 +27,13 @@ export default function Body() {
                     </p>
                     
                     <div className="col-md-2 d-flex ">
+                        <NavLink to='/login' activeStyle>
+                           <button type="button" class="bodybtn btn btn-lg btn-primary mx-3" >Login</button>
+                           <button type="button" class="btn btn-lg btn-outline-primary">Register</button>
+                  	    </NavLink>
                     
-                    <button type="button" class="bodybtn btn btn-lg btn-primary mx-3" >Login</button>
-                    <button type="button" class="btn btn-lg btn-outline-primary">Register</button>
+                    
+                    
 		            </div>
                     
                     

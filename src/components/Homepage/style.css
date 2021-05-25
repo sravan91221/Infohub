@@ -46,3 +46,9 @@ p{
     background-color: #4088cc ;
     text-align: center;
 }
+
+.filter{
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+}

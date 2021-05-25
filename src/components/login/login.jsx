@@ -12,9 +12,9 @@ export class Login extends React.Component{
         return <div className="base-container" ref={this.props.containerRef}>
             <div className="header">Login</div>
             <div className="content">
-                <div className="image">
+                {/* <div className="image">
                     <img src={loginImg} />
-                </div>
+                </div> */}
                 <div className="form">
                     <div className="form-group">
                         <label htmlFor="Username">Username</label>
@@ -28,7 +28,7 @@ export class Login extends React.Component{
             </div>
             <div className="footer">
                 
-                <button type="button" className="btn">
+                <button type="button" className="btn1">
                     Login
                 </button>
                
