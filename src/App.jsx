@@ -11,6 +11,8 @@ import Blog from './pages/Blog';
 import Intern_Portal from './pages/Intern_Portal';
 import App1 from './LoginMain';
 import Profile from './pages/Profile';
+import Form from './pages/Form';
+import QForm from './pages/Qform';
 
 function App() {
 return (
@@ -21,7 +23,10 @@ return (
 	<Switch>
 		<Route path='/home' component={Homepage} />
     <Route path='/Profile' component={Profile} />
+	<Route path='/qform' component={QForm} />
+	<Route path='/form' component={Form} />
     <Route path='/login' component={App1} />
+
 		<Route path='/Material' component={Material} />
 		<Route path='/Videos' component={Videos} />
 		<Route path='/ClassRecordings' component={ClassRecordings} />
